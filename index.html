@@ -1,0 +1,48 @@
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    
+    <header class="w-90 mx-auto my-3 border-bottom border-dark">
+        <h1 class="text-muted font-weight-bold py-5">Bookmaker</h1>
+    </header>
+
+    <div class="w-75 m-auto text-center bg-gray">
+        <div class="w-75 m-auto py-5">
+ <h3 class="pb-3">Bookmark your favorite sites</h3>
+
+            <div class="form-group">
+                <label for="SiteName" class="pb-1 font-weight-bolder text-dark">Site Name</label>
+                <input placeholder="Bookmark Name" type="text" id="SiteName" class="form-control">
+                <p id="nameValid" class=" rounded mt-2 py-1">Name is in-valid (name maust "start with capital characters , more than 3 char and not contain any Number")</p>
+                <p id="nameEmpty" class=" rounded mt-2 py-1">Please check input</p>
+            </div>
+
+            <div class="form-group">
+                <label for="SiteUrl" class="pb-1 font-weight-bolder text-dark">Site URL</label>
+                <input placeholder="Website URL" type="text" id="SiteUrl" class="form-control">
+                <p id="linkValid" class="rounded mt-2 py-1">Url Field is in-valid (link must be like "http://+ url of site + .com")</p>
+                <p id="linkEmpty" class=" rounded mt-2 py-1">Please check input</p>
+            </div>
+
+            <button id="btnAdd" class="btn btn-primary"">submit</button>
+            
+        </div>
+    </div>
+
+    <div class="w-75 mx-auto text-center bg-gray mt-4">
+        
+            <table class="table w-100" id="contant">
+
+            </table>
+    </div>
+
+    <footer class="w-90 mx-auto mt-3 border-top border-dark">
+        <h6 class="text-muted font-weight-bold py-5">© 2019 Bookmarker Inc.</h6>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

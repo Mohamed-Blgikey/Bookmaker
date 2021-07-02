@@ -1,0 +1,22 @@
+.bg-gray{
+    background-color: rgb(139, 135, 135,0.2);
+}
+.w-90{
+    width: 80%;
+}
+
+.btn:hover {
+    box-shadow: 2px 5px 3px 0px #888;
+}
+tr{
+    background: linear-gradient(180deg , rgb(139, 135, 135,0.2) ,white);
+}
+p{
+    background-color: #ffb2b2;
+    color: #6d0000;
+    border: 1px solid #6d0000;
+}
+
+#nameValid,#nameEmpty,#linkValid,#linkEmpty{
+    display: none;
+}
